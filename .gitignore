@@ -1,0 +1,96 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+# *.xcodeproj
+#
+# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
+# hence it is not needed unless you have added a package configuration file to your project
+# .swiftpm
+
+.build/
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# Pods/
+#
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+# *.xcworkspace
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+# Ignore fastlane documentation files (keep Fastfile, Pluginfile, etc. for CI/CD)
+fastlane/*.md
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# Ignore fastlane environment variables (sensitive data)
+fastlane/.env
+fastlane/.env.local
+fastlane/.env.default
+
+# Fastlane build artifacts
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+**/.DS_Store
+
+# Bundler
+vendor/bundle/
+.bundle/
+
+# GKC Scripts
+gkc_*
+
+# Scripts directory
+scripts/
+
+# Firebase Configuration Files
+# Store these files securely and share via secure channels only
+# BuildingEquipment/GoogleService-Info.plist
+# BuildingEquipment/GoogleService-Info-Dev.plist
+# BuildingEquipment/GoogleService-Info-Staging.plist
+.ruby-version
+# Gemfile and Gemfile.lock should be committed for CI/CD
+# Gemfile
+# Gemfile.lock
